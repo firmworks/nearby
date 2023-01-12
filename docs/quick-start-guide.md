@@ -41,15 +41,37 @@ i.e. *111 N. Green St Wiltlen, CA 81919*. not *111 Green Street*
 
 **Search** - This Button will initiate your search based on the above criteria. 
 
-#### Nearby List
+#### Nearby List Component
 
 ![Entity Locator Component](/docs/images/qsg-nearby-list.png)
 
-#### Nearby Map
+This component will display a list of the records found based on the criteria set in teh search component. 
+
+Clicking the Download button will download the list of records returned in an excel document.
+
+Clicking on the radio button on the left will center your Nearby Map component on that address.
+
+Clicking View on the right will navigate you to the record in a new tab.
+
+The columns can be set in the configuration you choose in the I am looking for section of the search component. 
+
+
+#### Nearby Map Component
 
 ![Entity Locator Component](/docs/images/qsg-nearby-map.png)
 
+The Nearby Map Component will show the Items from the Nearby List based on the search criteria in the Nearby Search. When the component loads it will show a blue circle for the radius of your search.
 
-#### Geo Configurator
+It can be moved by clicking and dragging and can also be recenterd by clicking on an item on the Nearby List component.
+
+You can also switch between Map and Satellite by clicking the buttons on the top left.
+
+#### Geo Configurator Component
 
 ![Entity Locator Component](/docs/images/qsg-geo-configurator.png)
+
+This component can be used to access NearBy Configuration wherever you add it. This can be helpful when you need to quickly add a column or change the mapped address fields.
+
+NOTE: Not everyone should have access to the Nearby Configuration. Only Admins and folks who are familiar with how geocode mapping works. You can conditionally hide component on pages and lightning apps. Please use the article here to understand how:
+
+https://help.salesforce.com/s/articleView?id=sf.lightning_page_components_visibility.htm&type=5
