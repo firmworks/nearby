@@ -13,7 +13,17 @@
 Paste API key into the Google box in the Nearby Configuration screen
 ![Google API Key](/docs/images/google_api_key.png)
 
-### Setting up Nearrby Custom Configurations
+#### Understanding the Provide Screen
+
+Here is a quick overview of the sections of a provider screen
+
+**API Key** - This is th API key for needed for the geocoding integration your class is integrating with. For the Preexisting USCENSUS_GEOCODE provider you will not need an API Key.
+
+**APEX Class Name** - This is the name of the apex class that is integrating with your geocode provider. Out of box we provide a class to integrate the with US Census API and the Google Geocoding API. The latter will only work if you have a Google Geocoding API Key which can be obtained byt following the steps [here](#obtaining-a-google-api-key).
+
+**Is Active** -  This will mark the provider as the active geocode provider for Nearby. Only one provider can be active at a time.
+
+### Setting up Nearby Custom Configurations
 
 Nearby Custom Configurations are made up of 4 different parts.
 
@@ -42,6 +52,37 @@ Record Filters: This allows you to create one or more filters you can reference 
 
 https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_select_conditionexpression.htm
 
+**Nearby Map Component Display Options**
 
+![Nearby Map Display Options](/docs/images/adv-config-ncc-nmcdp.png)
+
+This section is use to set the Label and detail value for the popup that shows when you click a map pin as see in the image below. You can choose from any of the fields from the object chosen in the Nearby Search Configuration Section above. 
+
+![Nearby Pin Details](/docs/images/adv-config-ncc-nmcdp-ex.png)
+
+**Nearby List Component Options**
+
+![Nearby List Component Options](/docs/images/adv-config-ncc-nslco.png)
+
+This section allows you to set the columns you see in the Nearby List Component.
+
+![Nearby List Column Example](/docs/images/adv-config-ncc-nslco-ex.png)
+
+Field Name - This is the field from the Object selected in the Nearby Search Configuration you want to source data to the column.
+
+Label - This allows you to set a column label.
+
+**Nearby List Component Data Download Options**
+
+![Nearby List Component Data Options](/docs/images/adv-config-ncc-nlcddo.png)
+
+This section will let you map the fields and columns you want to be present when the data is downloaded from the Nearby List Component's Download button.
+
+![Nearby List Component Data Example](/docs/images/adv-config-ncc-nlcddo-ex.png)
+
+Field Name - This is the field from the Object selected in the Nearby Search Configuration you want to source data to the column.
+
+Label - This allows you to set a column label.
 
 ### Using Custom Apex to Link to a Geocode Provider
+
