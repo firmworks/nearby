@@ -2,9 +2,16 @@
 
 # Release Notes
 
-## 1.0 January 2023
+## 0.2 May 2023
 
-- Nearby application supports 
+### fixes
+
+- Support for specifying parent relationships in configuration screen
+- Minor fix for using Geo fields on a page layout
+
+## 0.1 January 2023
+
+- Nearby application supports
   - Multiple ways to set searching from
     - Built in Geo Encoding using full address
     - Support for Google API key
@@ -12,4 +19,4 @@
     - Record based from layout
   - List of results with download as CSV option
   - Graphical map showing multiple markers
-- Extensible support for contextual record selection for custom LWC and Aura components 
+- Extensible support for contextual record selection for custom LWC and Aura components
