@@ -9,7 +9,7 @@
     - Geocodes for Contact Mailing Address
     - Geocodes for Lead Address
 
-![Data Integration Rules](/docs/images/data_integration_rules.png)
+![Data Integration Rules](images/data_integration_rules.png)
 
 ### Adding Components to a Lightning Page
 
@@ -17,7 +17,7 @@ NearBy has multiple components that can be used to facilitate showing users what
 
 #### Entity Locator 
 
-![Entity Locator Component](/docs/images/qsg-entity-locator-image.png)
+![Entity Locator Component](images/qsg-entity-locator-image.png)
 
 This component has all the other components in one; Nearby Search, Nearby List, Nearby Map. It is the best component to use when getting started. Just drop it and go.
 
@@ -25,7 +25,7 @@ For more information on then individual pieces please see below.
 
 #### Nearby Search Component
 
-![Entity Locator Component](/docs/images/qsg-nearby-search.png)
+![Entity Locator Component](images/qsg-nearby-search.png)
 
 This component will let you reference various COnfigurations you have set up to search for addresses with in the chosen location.
 
@@ -43,7 +43,7 @@ i.e. *111 N. Green St Wiltlen, CA 81919*. not *111 Green Street*
 
 #### Nearby List Component
 
-![Entity Locator Component](/docs/images/qsg-nearby-list.png)
+![Entity Locator Component](images/qsg-nearby-list.png)
 
 This component will display a list of the records found based on the criteria set in teh search component. 
 
@@ -58,7 +58,7 @@ The columns can be set in the configuration you choose in the I am looking for s
 
 #### Nearby Map Component
 
-![Entity Locator Component](/docs/images/qsg-nearby-map.png)
+![Entity Locator Component](images/qsg-nearby-map.png)
 
 The Nearby Map Component will show the Items from the Nearby List based on the search criteria in the Nearby Search. When the component loads it will show a blue circle for the radius of your search.
 
@@ -68,7 +68,7 @@ You can also switch between Map and Satellite by clicking the buttons on the top
 
 #### Geo Configurator Component
 
-![Entity Locator Component](/docs/images/qsg-geo-configurator.png)
+![Entity Locator Component](images/qsg-geo-configurator.png)
 
 This component can be used to access NearBy Configuration wherever you add it. This can be helpful when you need to quickly add a column or change the mapped address fields.
 

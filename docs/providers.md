@@ -19,4 +19,4 @@ Google provides (as of 1/1/2023) 200 dollars per month credit to a google cloud 
 #### Using Google API Key
 
 Paste API key into the Google box in the Nearby Configuration screen
-![Google API Key](docs/images/google_api_key.png)
+![Google API Key](images/google_api_key.png)

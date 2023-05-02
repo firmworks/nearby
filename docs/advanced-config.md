@@ -54,19 +54,19 @@ https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforc
 
 **Nearby Map Component Display Options**
 
-![Nearby Map Display Options](/docs/images/adv-config-ncc-nmcdp.png)
+![Nearby Map Display Options](images/adv-config-ncc-nmcdp.png)
 
 This section is use to set the Label and detail value for the popup that shows when you click a map pin as see in the image below. You can choose from any of the fields from the object chosen in the Nearby Search Configuration Section above. 
 
-![Nearby Pin Details](/docs/images/adv-config-ncc-nmcdp-ex.png)
+![Nearby Pin Details](images/adv-config-ncc-nmcdp-ex.png)
 
 **Nearby List Component Options**
 
-![Nearby List Component Options](/docs/images/adv-config-ncc-nslco.png)
+![Nearby List Component Options](images/adv-config-ncc-nslco.png)
 
 This section allows you to set the columns you see in the Nearby List Component.
 
-![Nearby List Column Example](/docs/images/adv-config-ncc-nslco-ex.png)
+![Nearby List Column Example](images/adv-config-ncc-nslco-ex.png)
 
 Field Name - This is the field from the Object selected in the Nearby Search Configuration you want to source data to the column.
 
@@ -74,11 +74,11 @@ Label - This allows you to set a column label.
 
 **Nearby List Component Data Download Options**
 
-![Nearby List Component Data Options](/docs/images/adv-config-ncc-nlcddo.png)
+![Nearby List Component Data Options](images/adv-config-ncc-nlcddo.png)
 
 This section will let you map the fields and columns you want to be present when the data is downloaded from the Nearby List Component's Download button.
 
-![Nearby List Component Data Example](/docs/images/adv-config-ncc-nlcddo-ex.png)
+![Nearby List Component Data Example](images/adv-config-ncc-nlcddo-ex.png)
 
 Field Name - This is the field from the Object selected in the Nearby Search Configuration you want to source data to the column.
 
