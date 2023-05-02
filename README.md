@@ -1,6 +1,6 @@
 # nearby by firmworks
 
-Check out our documentation here [firmworks.github.io/nearby/](firmworks.github.io/nearby/)
+Check out our documentation here [firmworks.github.io/nearby/](https://firmworks.github.io/nearby/)
 
 Until we are available on the App Exchange install using this link
 
