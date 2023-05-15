@@ -2,6 +2,11 @@
 
 # Release Notes
 
+## 0.3 May 2023
+
+### Enhancement
+  Map and List control can now be placed in tabs helping with page layouts.
+
 ## 0.2 May 2023
 
 ### fixes
